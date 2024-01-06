@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>New Task Assignment Notification</title>
+    <style type="text/css">
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+        }
+
+        h1 {
+            font-size: 18px;
+            margin-bottom: 0;
+            color: navy;
+        }
+
+        p {
+            margin-top: 5px;
+            margin-bottom: 10px;
+            color: #222;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            max-width: 600px;
+            margin: 20px auto;
+        }
+
+            table td {
+                padding: 10px;
+                border: 1px solid #ccc;
+                text-align: center;
+            }
+
+        th {
+            background-color: #A2D9CE;
+            color: #333;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>New Task Assignment Notification</h1>
+    <p>Hello {Name},</p>
+    <p>Your leader at team {GroupName} has assigned you a new task. Details of the task are listed below:</p>
+    <table>
+        <tbody>
+            <tr>
+                <th>Task Name:</th>
+                <td>{TaskName}</td>
+            </tr>
+
+            <tr>
+                <th>Start Date:</th>
+                <td>{StartDate}</td>
+            </tr>
+            <tr>
+                <th>Deadline:</th>
+                <td>{Deadline}</td>
+            </tr>
+            <tr>
+                <th>Important:</th>
+                <td>{ImportantLevel}</td>
+            </tr>
+            <tr>
+                <th>Description:</th>
+                <td>{Description}</td>
+            </tr>
+            <tr>
+                <th>Status:</th>
+                <td>{Status}</td>
+            </tr>
+
+        </tbody>
+    </table>
+    <p>Please complete the task before the deadline to ensure project progress. If you encounter any difficulties during the task completion process, please contact your leader for support.</p>
+    <p>Good luck!</p>
+    <p>Best regards,</p>
+    <p>Joinin</p>
+</body>
+</html>
